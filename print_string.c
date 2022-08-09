@@ -2,9 +2,7 @@
 
 /**
 * print_string - Entry point
-* 
 * @string: the argument
-*
 * Return: Always 0
 */
 
