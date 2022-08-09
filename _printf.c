@@ -3,9 +3,7 @@
 
 /**
 * _printf - Entry point
-* 
 * @format: the argument
-*
 * Return: Always 0
 */
 
@@ -24,7 +22,7 @@ if (format[i] != '%')
 count += _putchar(format[i]);
 i++;
 }
-else if (format[i] == '%' && format[i+1] != ' ')
+else if (format[i] == '%' && format[i + 1] != ' ')
 {
 switch (format[i + 1])
 {
@@ -49,7 +47,6 @@ break;
 case 'i':
 count += print_decimal(va_arg(data, int));
 break;
-
 
 default:
 break;
