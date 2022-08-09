@@ -1,9 +1,8 @@
 #include <unistd.h>
 
 /**
- *comment
+ *_putchar -> the function
  *@c character to print
- *
  *Return: On success 1
  *
  */
