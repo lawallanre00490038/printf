@@ -6,9 +6,7 @@
 * Return: Always 0
 */
 
-int
-print_decimal (int value)
-{
+int print_decimal (int value){
   int count = 0;
   if (value < 0)
     {
